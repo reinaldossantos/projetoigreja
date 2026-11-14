@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Evangélica Comunidade da Graça</title>
+    
+    <!-- Google Fonts: Playfair Display (Títulos) e Inter (Textos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-cross"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="church-name">Comunidade da Graça</span>
+                    <span class="church-sub">Igreja Evangélica</span>
+                </div>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                    <li><a href="#ministerios" class="nav-link">Ministérios</a></li>
+                    <li><a href="#mensagens" class="nav-link">Mensagens</a></li>
+                    <li><a href="#contato" class="nav-link btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================= HERO / CARROSSEL ================= -->
+        <section class="hero" id="inicio">
+            <div class="carousel">
+                <!-- Slide 1 -->
+                <div class="slide active" style="background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&fit=crop&w=1920&q=80');">
+                    <div class="container slide-content">
+                        <span class="slide-badge">Bem-vindo à Família</span>
+                        <h1>Um lugar de fé, esperança e recomeços</h1>
+                        <p>Junte-se a nós todos os domingos para celebrar o amor de Cristo em comunhão e adoração.</p>
+                        <div class="slide-buttons">
+                            <a href="#contato" class="btn btn-primary">Planeje sua Visita</a>
+                            <a href="#mensagens" class="btn btn-outline">Assistir Online</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide" style="background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1920&q=80');">
+                    <div class="container slide-content">
+                        <span class="slide-badge">Campanha do Mês</span>
+                        <h1>40 Dias de Oração e Propósito</h1>
+                        <p>Um tempo especial de consagração, busca espiritual e intercessão pelas famílias da nossa cidade.</p>
+                        <div class="slide-buttons">
+                            <a href="#contato" class="btn btn-primary">Participar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide" style="background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1920&q=80');">
+                    <div class="container slide-content">
+                        <span class="slide-badge">Conferência Jovem</span>
+                        <h1>Geração Eleita 2026</h1>
+                        <p>Sábado às 19h30. Uma noite inesquecível de louvor, palavra transformadora e comunhão.</p>
+                        <div class="slide-buttons">
+                            <a href="#ministerios" class="btn btn-primary">Conhecer Ministérios</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles do Carrossel -->
+                <button class="carousel-btn prev" id="prevBtn" aria-label="Slide anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next" id="nextBtn" aria-label="Próximo slide">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+                <!-- Indicadores -->
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </section>
+
+        <!-- ================= SOBRE NÓS ================= -->
+        <section class="about section-padding" id="sobre">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1544427920-c49ccfb85579?auto=format&fit=crop&w=800&q=80" alt="Comunidade reunida na igreja">
+                    <div class="experience-badge">
+                        <span class="years">25+</span>
+                        <span>Anos servindo a comunidade</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-subtitle">Quem Somos</span>
+                    <h2 class="section-title">Uma igreja comprometida com a Palavra e com as pessoas</h2>
+                    <p>Nascemos com o propósito simples e transformador de amar a Deus sobre todas as coisas e amar ao próximo como a nós mesmos. Acreditamos que a igreja não é apenas um prédio, mas uma família viva que caminha junta.</p>
+                    <p>Nossa missão é anunciar o Evangelho de Jesus Cristo com relevância, acolhendo cada pessoa com graça, restaurando vidas e impactando nossa cidade através do serviço cristão.</p>
+                    
+                    <div class="about-pillars">
+                        <div class="pillar">
+                            <i class="fa-solid fa-book-bible"></i>
+                            <div>
+                                <h4>Base Bíblica</h4>
+                                <p>Ensino fiel e prático das Escrituras.</p>
+                            </div>
+                        </div>
+                        <div class="pillar">
+                            <i class="fa-solid fa-hands-holding-heart"></i>
+                            <div>
+                                <h4>Acolhimento</h4>
+                                <p>Portas abertas para todas as famílias.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= MINISTÉRIOS ================= -->
+        <section class="ministries section-padding bg-light" id="ministerios">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Envolva-se</span>
+                    <h2 class="section-title">Nossos Ministérios</h2>
+                    <p class="section-desc">Há um lugar especial para você e sua família crescerem na fé e servirem com seus dons.</p>
+                </div>
+
+                <div class="ministries-grid">
+                    <!-- Card 1 -->
+                    <article class="ministry-card">
+                        <div class="card-icon"><i class="fa-solid fa-fire"></i></div>
+                        <h3>Ministério de Jovens</h3>
+                        <p>Encontros dinâmicos, discipulado e comunhão para jovens que desejam viver o propósito de Deus em sua geração.</p>
+                        <a href="#contato" class="card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="ministry-card">
+                        <div class="card-icon"><i class="fa-solid fa-child-reaching"></i></div>
+                        <h3>Ministério Infantil</h3>
+                        <p>Um ambiente seguro, alegre e criativo onde as crianças aprendem os princípios bíblicos desde cedo.</p>
+                        <a href="#contato" class="card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="ministry-card">
+                        <div class="card-icon"><i class="fa-solid fa-music"></i></div>
+                        <h3>Louvor e Adoração</h3>
+                        <p>Conduzindo a igreja a uma experiência profunda de adoração através da música e das artes.</p>
+                        <a href="#contato" class="card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="ministry-card">
+                        <div class="card-icon"><i class="fa-solid fa-people-roof"></i></div>
+                        <h3>Casais e Famílias</h3>
+                        <p>Fortalecendo alianças, restaurando lares e edificando famílias sobre a rocha que é Cristo.</p>
+                        <a href="#contato" class="card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+
+                    <!-- Card 5 -->
+                    <article class="ministry-card">
+                        <div class="card-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                        <h3>Ação Social</h3>
+                        <p>Levando alimento, dignidade e o amor prático de Jesus às famílias em situação de vulnerabilidade.</p>
+                        <a href="#contato" class="card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+
+                    <!-- Card 6 -->
+                    <article class="ministry-card">
+                        <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+                        <h3>Pequenos Grupos</h3>
+                        <p>Igreja nos lares: comunhão semanal, oração mútua e estudo da Palavra perto de você.</p>
+                        <a href="#contato" class="card-link">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= VÍDEO / MENSAGENS ================= -->
+        <section class="media section-padding" id="mensagens">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Palavra Viva</span>
+                    <h2 class="section-title">Última Mensagem & Transmissão</h2>
+                    <p class="section-desc">Acompanhe nossos cultos ao vivo ou assista às ministrações recentes diretamente do nosso canal.</p>
+                </div>
+
+                <div class="video-wrapper">
+                    <div class="video-responsive">
+                        <!-- Substitua o ID do vídeo após /embed/ pelo vídeo desejado da igreja -->
+                        <iframe 
+                            src="https://www.youtube.com/embed/jfKfPfyJRdk?rel=0" 
+                            title="Transmissão Igreja Comunidade da Graça" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTATO ================= -->
+        <section class="contact section-padding bg-light" id="contato">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <span class="section-subtitle">Fale Conosco</span>
+                    <h2 class="section-title">Estamos prontos para receber você</h2>
+                    <p>Tem algum pedido de oração, dúvida sobre nossos horários ou deseja conversar com nossa equipe pastoral? Entre em contato!</p>
+
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                            <div>
+                                <h4>Horários de Culto</h4>
+                                <p>Domingos: 09h00 e 19h00<br>Quartas-feiras: 19h30 (Culto de Oração)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <h4>WhatsApp da Secretaria</h4>
+                                <p><a href="https://wa.me/5532999999999" target="_blank" rel="noopener">(32) 99999-9999 — Clique para conversar</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>E-mail Oficial</h4>
+                                <p><a href="mailto:contato@comunidadedagraca.org.br">contato@comunidadedagraca.org.br</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <h3>Envie uma Mensagem</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject">
+                                <option value="Pedido de Oração">Pedido de Oração</option>
+                                <option value="Primeira Visita">Planejar Primeira Visita</option>
+                                <option value="Ministérios">Participar de um Ministério</option>
+                                <option value="Outros">Outros Assuntos</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Escreva sua mensagem ou pedido de oração..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo footer-logo">
+                    <div class="logo-icon"><i class="fa-solid fa-cross"></i></div>
+                    <div class="logo-text">
+                        <span class="church-name">Comunidade da Graça</span>
+                        <span class="church-sub">Igreja Evangélica</span>
+                    </div>
+                </a>
+                <p>Proclamando o Evangelho, edificando vidas e servindo a nossa cidade com o amor de Cristo.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#ministerios">Ministérios</a></li>
+                    <li><a href="#mensagens">Mensagens</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-location">
+                <h4>Localização</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Av. Principal, 1000 - Centro<br>Muriaé - MG, CEP 36880-000</p>
+                <p><i class="fa-solid fa-phone"></i> (32) 3721-0000</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Igreja Evangélica Comunidade da Graça. Todos os direitos reservados.</p>
+                <p class="image-credits">Imagens ilustrativas: Acervo institucional e Unsplash (Licença Livre).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
